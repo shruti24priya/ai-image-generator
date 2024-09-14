@@ -1,0 +1,62 @@
+body{
+    background: black;
+    color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: aquamarine;
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    
+}
+label,h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+input{
+
+    max-width: 350px;
+    width: 900px;
+    height: 30px;
+    border-radius: 20px;
+    
+    background-color: beige;
+    padding: 5px;
+    font-size: 1.2rem;
+    color: grey;
+    text-align: center;
+}
+
+img{
+    width: 90%;
+    max-width: 350px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+button{
+    
+  background-color: aquamarine;
+  border-radius: 100px;
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+  cursor: pointer;
+  display: inline-block;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2.5rem;
+  padding: 7px 20px;
+  text-align: center;
+  border: 12;
+  font-size: 16px;
+ 
+}
+
